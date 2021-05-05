@@ -112,6 +112,7 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     androidboot.usbcontroller=4e00000.dwc3 \
     swiotlb=0 \
+    kpti=off \
     loop.max_part=7 \
     cgroup.memory=nokmem,nosocket \
     iptable_raw.raw_before_defrag=1 \
