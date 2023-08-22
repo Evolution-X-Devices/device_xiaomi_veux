@@ -40,3 +40,6 @@ vm.min_free_kbytes=4096
 ro.lmk.low=64
 ro.lmk.medium=96
 ro.lmk.high=128
+
+# Logs
+persist.log.tag.ACDB-LOADER=S
