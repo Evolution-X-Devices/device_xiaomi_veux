@@ -85,6 +85,9 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_SN100_FILES := \
     $(DEVICE_PATH)/configs/vintf/manifest_ese.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
