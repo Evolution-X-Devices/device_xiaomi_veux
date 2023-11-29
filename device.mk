@@ -271,7 +271,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor 
     
 PRODUCT_PACKAGES += \
-    libstagefright_softomx_plugin.vendor
+    libstagefright_softomx_plugin.vendor \
+    libstagefright_foundation-v33
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_blair.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_blair.xml \
