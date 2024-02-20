@@ -25,6 +25,7 @@ import android.util.Log;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
+import org.lineageos.settings.dirac.DiracUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
@@ -39,7 +40,16 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         Log.i(TAG, "Boot completed, starting services");
         DozeUtils.onBootCompleted(context);
+
+        // Dirac
+        try {
+            DiracUtils.getInstance(context);
+        } catch (Exception e) {
+            Log.d(TAG, "Dirac is not present in system");
+        }
+        // Refresh Rate
         RefreshUtils.startService(context);
+        // Thermal Profiles
         ThermalUtils.startService(context);        
     }
 }
