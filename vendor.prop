@@ -168,6 +168,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=1
+debug.sf.auto_latch_unsignaled=true
+debug.hwui.skia_atrace_enabled=false
 debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
@@ -241,6 +243,15 @@ persist.vendor.sensors.sync_request=true
 ro.boot.product.vendor.sku=holi
 ro.soc.manufacturer=QTI
 ro.soc.model=SM6375
+
+# Surfaceflinger
+debug.sf.late.sf.duration=20000000
+debug.sf.late.app.duration=15000000
+debug.sf.early.sf.duration=20000000
+debug.sf.early.app.duration=15000000
+debug.sf.earlyGl.sf.duration=20000000
+debug.sf.earlyGl.app.duration=15000000
+debug.sf.hwc.min.duration=10000000
 
 # USB
 sys.usb.mtp.batchcancel=1
