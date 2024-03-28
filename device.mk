@@ -458,6 +458,10 @@ PRODUCT_PACKAGES += \
     libjsoncpp.vendor \
     libsqlite.vendor
 
+# QTI fwk-detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti.vendor # Needed by CNE app
+
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl
