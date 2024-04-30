@@ -72,6 +72,9 @@ on late-fs
     wait_for_prop hwservicemanager.ready true
     mount_all --late
 
+on property:sys.boot_completed=1
+    stop statsd
+
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     mkdir /data/vendor/thermal 0771 root system
