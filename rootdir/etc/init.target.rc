@@ -74,6 +74,8 @@ on late-fs
 
 on property:sys.boot_completed=1
     stop statsd
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
 
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
