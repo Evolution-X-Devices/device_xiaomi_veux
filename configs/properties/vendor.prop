@@ -184,7 +184,6 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
 debug.sf.auto_latch_unsignaled=0
-debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=0
 debug.sf.enable_adpf_cpu_hint=true
 debug.sf.enable_advanced_sf_phase_offset=1
@@ -249,7 +248,6 @@ persist.vendor.radio.enable_temp_dds=true
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sib16_support=1
-<<<<<<< HEAD:configs/properties/vendor.prop
 ro.telephony.default_network=26,26
 persist.cust.tel.eons=1
 ro.telephony.block_binder_thread_on_incoming_calls=false
@@ -257,9 +255,6 @@ ro.telephony.block_binder_thread_on_incoming_calls=false
 # ScrollOptimizer
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
-=======
-ro.telephony.default_network=26,26
->>>>>>> aafb4fb0e (veux: Change default preferred network mode value):vendor.prop
 
 # Sensors
 persist.vendor.sensors.enable.bypass_worker=true
