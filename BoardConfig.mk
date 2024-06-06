@@ -160,9 +160,6 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := holi
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := /proc/tp_gesture
-
 # Recovery
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.default
