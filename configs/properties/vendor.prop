@@ -260,6 +260,7 @@ ro.soc.manufacturer=QTI
 ro.soc.model=SM6375
 
 # USB
+ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
 vendor.usb.controller=4e00000.dwc3
 vendor.usb.diag.func.name=ffs
