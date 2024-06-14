@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
     WifiOverlayVEUX
 
 PRODUCT_PACKAGES += \
+    DeviceAsWebcamOverlayVEUX \
     SettingsProviderOverlay2201116SG \
     SettingsProviderOverlay2201116SC \
     SettingsProviderOverlay2201116SI \
