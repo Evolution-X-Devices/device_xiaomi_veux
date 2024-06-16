@@ -162,6 +162,11 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension@1.0.vendor \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
