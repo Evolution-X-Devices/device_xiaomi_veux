@@ -462,6 +462,11 @@
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
+
+    <!-- True if the display hardware only has brightness buckets rather than a full range of
+         backlight values -->
+    <bool name="config_displayBrightnessBucketsInDoze">true</bool>
+
     <bool name="config_showNavigationBar">true</bool>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
