@@ -11,6 +11,10 @@ debug.sf.enable_hwc_vds=1
 persist.vendor.dpm.feature=11
 persist.vendor.dpm.idletimer.mode=default
 
+# EGL - Blobcache configuration
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
