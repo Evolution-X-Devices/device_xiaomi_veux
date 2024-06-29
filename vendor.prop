@@ -246,6 +246,9 @@ persist.vendor.sensors.hal_trigger_ssr=false
 persist.vendor.sensors.support_direct_channel=false
 persist.vendor.sensors.sync_request=true
 
+# Shutdown
+ro.build.shutdown_timeout=0
+
 # SoC
 ro.boot.product.vendor.sku=holi
 ro.soc.manufacturer=QTI
