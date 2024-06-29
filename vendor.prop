@@ -117,8 +117,14 @@ ro.vendor.bluetooth.wipower=false
 camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
-# Dalvik
+# Dalvik/ART VM tweaks
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapmaxfree=8m
 
 # Display
 ro.surface_flinger.enable_frame_rate_override=false
@@ -196,6 +202,10 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 ro.hwui.render_ahead=20
 
+# Improve scrolling and responsiveness
+windowsmgr.max_events_per_sec=240
+ro.min_pointer_dur=8
+
 # Incremental FS
 ro.incremental.enable=true
 
@@ -204,6 +214,13 @@ debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 vendor.media.target_variant=_blair
 vendor.netflix.bsp_rev=Q4350-32962-1
+
+# Network tweaks
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
