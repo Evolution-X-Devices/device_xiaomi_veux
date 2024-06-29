@@ -75,6 +75,10 @@ on boot
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/device/extldo
     chmod 0660 /sys/class/rfkill/rfkill0/device/extldo
 
+    # Adjust read-ahead buffer size
+    write /sys/block/mmcblk0/queue/read_ahead_kb 2048
+    write /sys/block/mmcblk1/queue/read_ahead_kb 2048
+
     # This location is used by QCRIL to host UNIX domain
     # socket files used for internal IPC within QCRIL
     # modules
@@ -115,6 +119,11 @@ on boot
     write /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor schedutil
     write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor schedutil
     write /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor schedutil
+
+    # Configure thermal throttling
+    write /sys/devices/virtual/thermal/thermal_zone0/policy step_wise
+    write /sys/devices/virtual/thermal/thermal_zone1/policy step_wise
+    write /sys/devices/virtual/thermal/thermal_zone2/policy step_wise
 
     # Set I/O scheduler to noop
     write /sys/block/mmcblk0/queue/scheduler noop
