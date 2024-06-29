@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libspkrprot \
+    libldacBT_bco \
     libvolumelistener \
     sound_trigger.primary.holi:32
 
@@ -248,7 +249,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libmm-omxcore \
     libstagefright_softomx.vendor \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx_plugin.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
@@ -400,7 +402,8 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libsqlite.vendor
+    libsqlite.vendor \
+    libnetutils
 
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
@@ -490,6 +493,17 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
+# VNDK
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor:64 \
+    libnetutils.vendor:64 \
+    libsqlite.vendor \
+    libsqlite.vendor:64 \
+    libprocessgroup.vendor \
+    libjsoncpp.vendor \
+    libcurl.vendor \
+    libpng.vendor:32
 
 # WiFi
 PRODUCT_PACKAGES += \
