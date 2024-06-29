@@ -207,6 +207,7 @@ vendor.netflix.bsp_rev=Q4350-32962-1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+vendor.perf.framepacing.enable=1
 
 # Radio
 persist.dbg.ims_volte_enable=1
