@@ -106,6 +106,12 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
+    # Set I/O scheduler to noop
+    write /sys/block/mmcblk0/queue/scheduler noop
+
+    # Disable kernel logging for better performance
+    write /proc/sys/kernel/printk "0 0 0 0"
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
