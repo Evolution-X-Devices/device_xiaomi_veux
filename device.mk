@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libspkrprot \
-    libldacBT_bco \
     libvolumelistener \
     sound_trigger.primary.holi:32
 
