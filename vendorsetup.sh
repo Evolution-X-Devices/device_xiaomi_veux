@@ -15,4 +15,4 @@ git clone --depth=1 https://github.com/Positron-B/vendor_xiaomi_miuicamera-veux.
 git clone --depth=1 https://github.com/Positron-B/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi --depth=1
 git clone --depth=1 https://github.com/FlamingoOS-Devices/hardware_dolby.git hardware/dolby
-git clone --depth=1 https://github.com/Prathamk07/vendor_xiaomi_AGC_Camera.git vendor/xiaomi/AGC-Camera
+git clone --depth=1 https://prathamk07-admin@bitbucket.org/prathamk07/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-Camera
