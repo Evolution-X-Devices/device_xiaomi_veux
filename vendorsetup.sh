@@ -5,7 +5,6 @@ rm -rf device/xiaomi/veux-kernel
 rm -rf vendor/xiaomi/miuicamera-veux
 rm -rf vendor/xiaomi/miuicamera
 rm -rf hardware/xiaomi
-rm -rf hardware/dolby
 rm -rf vendor/xiaomi/AGC-Camera
 
 git clone --depth=1 https://github.com/Prathamk07/vendor_xiaomi_veux.git vendor/xiaomi/veux
@@ -14,5 +13,5 @@ git clone --depth=1 https://github.com/Prathamk07/device_xiaomi_veux-kernel.git 
 git clone --depth=1 https://github.com/Positron-B/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
 git clone --depth=1 https://github.com/Positron-B/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi --depth=1
-git clone --depth=1 https://github.com/Prathamk07/hardware_dolby.git hardware/dolby
+git clone https://github.com/Prathamk07/hardware_dolby.git hardware/dolby
 git clone --depth=1 https://prathamk07-admin@bitbucket.org/prathamk07/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-Camera
