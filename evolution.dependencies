@@ -1,0 +1,50 @@
+[
+  {
+    "repository": "Prathamk07/vendor_xiaomi_veux",
+    "target_path": "vendor/xiaomi/veux",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "dereference23/kernel_xiaomi_sm6375",
+    "target_path": "kernel/xiaomi/sm6375",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "Prathamk07/device_xiaomi_veux-kernel",
+    "target_path": "device/xiaomi/veux-kernel",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "Positron-B/vendor_xiaomi_miuicamera-veux",
+    "target_path": "vendor/xiaomi/miuicamera-veux",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "Positron-B/vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github-non-los",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "Prathamk07/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "remote": "github-non-los",
+    "branch": "main"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github-non-los",
+    "branch": "lineage-21"
+  },
+]
