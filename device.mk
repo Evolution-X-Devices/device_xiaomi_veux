@@ -243,7 +243,7 @@ PRODUCT_PACKAGES += \
 
 # IR
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.example
+    android.hardware.ir-service.xiaomi
 
 # IRQ
 PRODUCT_COPY_FILES += \
