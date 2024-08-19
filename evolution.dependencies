@@ -40,11 +40,5 @@
     "target_path": "hardware/dolby",
     "remote": "github-non-los",
     "branch": "main"
-  },
-  {
-    "repository": "LineageOS/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
-    "remote": "github-non-los",
-    "branch": "lineage-21"
   }
 ]
