@@ -44,7 +44,7 @@
   {
     "repository": "prathamk07/vendor_xiaomi_agc-camera",
     "target_path": "vendor/xiaomi/AGC-Camera",
-    "remote": "bitbucket-non-los",
+    "remote": "bitbucket",
     "branch": "main"
   }
 ]
