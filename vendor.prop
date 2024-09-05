@@ -161,6 +161,7 @@ vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.target.version=3
 vendor.display.use_smooth_motion=1
+vendor.display.defer_fps_frame_count=2
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
