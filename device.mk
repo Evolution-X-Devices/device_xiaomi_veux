@@ -518,7 +518,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwifi-hal-qcom \
+    #libwifi-hal-qcom \
+    libcld80211 \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
@@ -546,4 +547,4 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
 $(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
 # $(call inherit-product, vendor/xiaomi/veux-gcam/Camera-vendor.mk)
-$(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)
+# $(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)
