@@ -41,7 +41,7 @@
 /data/vendor/goodix(/.*)?                                                      u:object_r:fingerprint_vendor_data_file:s0
 /data/vendor/silead(/.*)?                                                      u:object_r:fingerprint_vendor_data_file:s0
 /data/vendor_de/[0-9]+/goodix(/.*)?                                            u:object_r:fingerprint_vendor_data_file:s0
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi      u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/vendor\.silead\.hardware\.fingerprintext@1\.0-service           u:object_r:hal_fingerprint_default_exec:s0
 
 # HALs
