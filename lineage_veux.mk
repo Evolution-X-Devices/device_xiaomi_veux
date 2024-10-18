@@ -28,7 +28,6 @@ PRODUCT_SYSTEM_NAME := veux_global
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME) \
-    PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V816.0.12.0.TKCMIXM release-keys"
-
-BUILD_FINGERPRINT := Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.12.0.TKCMIXM:user/release-keys
+    BuildDesc="veux_global-user 13 TKQ1.221114.001 V816.0.12.0.TKCMIXM release-keys" \
+    BuildFingerprint=Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.12.0.TKCMIXM:user/release-keys \
+    DeviceProduct=$(PRODUCT_DEVICE)
