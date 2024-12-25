@@ -19,6 +19,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Evolution flags
+EVO_BUILD_TYPE := Official
+WITH_GMS := false
+
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
