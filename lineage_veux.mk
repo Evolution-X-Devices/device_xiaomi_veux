@@ -21,7 +21,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Evolution flags
 EVO_BUILD_TYPE := Official
-WITH_GMS := false
+WITH_GMS := true
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
@@ -33,7 +33,6 @@ PRODUCT_SYSTEM_NAME := veux_global
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V816.0.9.0.TKCMIXM release-keys" \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    BuildDesc="veux_global-user 13 TKQ1.221114.001 V816.0.9.0.TKCMIXM release-keys" \
 
-BUILD_FINGERPRINT := Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.9.0.TKCMIXM:user/release-keys
+    BuildFingerprint=Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.9.0.TKCMIXM:user/release-keys

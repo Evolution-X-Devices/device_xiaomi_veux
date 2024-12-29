@@ -113,7 +113,7 @@ BOARD_KERNEL_CMDLINE := \
     firmware_class.path=/vendor/firmware
 
 TARGET_KERNEL_CONFIG := veux_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/veux
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6375
 TARGET_KERNEL_NO_GCC := true
 
 # Lineage Health
