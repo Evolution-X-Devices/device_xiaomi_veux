@@ -260,5 +260,12 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::ISileadFingerprint/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>vendor.google.google_battery</name>
+        <interface>
+            <name>IGoogleBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <kernel target-level="5"/>
 </manifest>
