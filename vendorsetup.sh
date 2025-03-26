@@ -21,9 +21,9 @@ git clone --depth=1 https://github.com/MrTopia/vendor_bcr vendor/bcr
 echo cloning AGC camera
 git clone --depth=1 https://gitlab.com/takixamru/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-camera 
 
-echo "Cloning MIUI Camera (Lecia)..."
 # MIUI Camera (Lecia)
-git clone https://x-token-auth:ATCTT3xFfGN0yGAyPmg8csgUOB4N41KCVUKagu10beAVq3bdrWSOdCK5Yu8VqTCkV_pEeL42rH_e-ekxD_MM8ga3PRW3yxdXKPb3nEDMP-Ow4G4-tNMblFsbhVGijkQbAxfIFn-7qaZ8eSr7pk9vSrlDuXLHSXUL3TKiXgJjOq8l88Bssv870ac=02F69C6E@bitbucket.org/amritokun/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
+echo "Cloning MIUI Camera (Lecia)..."
+git clone https://github.com/Onelots-Devices-Playground/vendor_xiaomi_miuicamera-veux vendor/xiaomi/miuicamera-veux
 
 echo "Cloning Sony Dolby"
 git clone https://github.com/userariii/vendor_sony_dolby.git vendor/sony/dolby
