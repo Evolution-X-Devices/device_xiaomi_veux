@@ -569,7 +569,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
 
 # AGC CAMERA
-$(call inherit-product, vendor/xiaomi/AGC-camera/config.mk)
+$(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)
 
 # Viper4AndroidFX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
