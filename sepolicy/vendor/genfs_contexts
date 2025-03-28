@@ -5,7 +5,6 @@ genfscon sysfs /module/aw882xx_dlkm/parameters/smartpa_type                     
 genfscon sysfs /devices/platform/soc/soc:qcom_wt_chg                               u:object_r:vendor_sysfs_battery_supply:s0
 
 # Extcon
-genfscon sysfs /devices/platform/soc/1628000.qcom,msm-eud/extcon                   u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/soc/soc:rt-pd-manager/extcon                      u:object_r:sysfs_extcon:s0
 
 # Fingerprint
