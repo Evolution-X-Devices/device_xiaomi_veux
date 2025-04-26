@@ -260,6 +260,7 @@ ro.soc.manufacturer=QTI
 ro.soc.model=SM6375
 
 # USB
+ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
 vendor.usb.controller=4e00000.dwc3
