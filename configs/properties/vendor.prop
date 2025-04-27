@@ -199,7 +199,7 @@ vendor.gralloc.secure_preview_buffer_format=420_sp
 vendor.gralloc.secure_preview_only=1
 
 # HWUI
-ro.hwui.render_ahead=2
+ro.hwui.render_ahead=5
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
