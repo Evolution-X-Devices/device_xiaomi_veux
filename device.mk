@@ -570,6 +570,3 @@ $(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)
 
 # Viper4AndroidFX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
-
-# Dolby
-$(call inherit-product, vendor/sony/dolby/setup.mk)
