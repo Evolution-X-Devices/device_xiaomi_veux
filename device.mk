@@ -265,6 +265,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
+# Lineage health
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
