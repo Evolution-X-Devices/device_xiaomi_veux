@@ -114,6 +114,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Camera Health
+$(call soong_config_set,camera,override_format_from_reserved,true)
+
 # Camx overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt
