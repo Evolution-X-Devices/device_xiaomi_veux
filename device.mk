@@ -565,9 +565,6 @@ $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
 PRODUCT_PACKAGES += \
     RemovePackagesVeux
 
-# MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
-
 # AGC CAMERA
 $(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)
 
