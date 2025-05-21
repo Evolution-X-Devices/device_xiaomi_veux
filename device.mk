@@ -42,10 +42,6 @@ ART_BUILD_TARGET_DEBUG := false
 ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
-# ART lowmem config
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.art_lowmem=true
-    
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
