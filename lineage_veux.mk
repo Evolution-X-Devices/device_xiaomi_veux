@@ -14,6 +14,10 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# EvolutionX flags
+BUILD_BCR := true
+EVO_BUILD_TYPE := Official
+TARGET_USES_MINI_GAPPS := true
 TARGET_INCLUDE_VIPERFX := true
 
 # Boot animation

@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "kernel_xiaomi_veux",
+    "target_path": "kernel/xiaomi/veux"
+  },
+  {
+    "repository": "vendor_xiaomi_veux",
+    "target_path": "vendor/xiaomi/veux"
+  },
+  {
+    "repository": "takixamru/vendor_xiaomi_agc-camera.git",
+    "target_path": "vendor/xiaomi/AGC-Camera",
+    "remote": "gitlab",
+    "branch": "main"
+  },
+  {
+    "repository": "TogoFire/packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX",
+    "remote": "github-non-los",
+    "branch": "v4a"
+  }
+]
