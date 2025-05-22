@@ -119,6 +119,7 @@ persist.vendor.btstack.enable.twsplussho=true
 # Camera
 camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
 
 # Dalvik
@@ -205,6 +206,15 @@ debug.hwui.target_cpu_time_percent=30
 
 # Incremental FS
 ro.incremental.enable=true
+
+# Logcat spam
+persist.log.tag.BackgroundInstallControlService=S
+persist.log.tag.HWUI=S
+persist.log.tag.ConnectivityService=S
+persist.log.tag.vendor.qti.bluetooth@1.0-ibs_handler=S
+persist.log.tag.vendor.qti.bluetooth@1.0-wake_lock=S
+persist.log.tag.AppOps=S
+persist.log.tag.FrameTracker=S
 
 # Media
 debug.stagefright.c2inputsurface=-1
