@@ -18,7 +18,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 BUILD_BCR := true
 EVO_BUILD_TYPE := Official
 TARGET_USES_MINI_GAPPS := true
-TARGET_INCLUDE_VIPERFX := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
