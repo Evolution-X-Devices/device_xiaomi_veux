@@ -3,7 +3,6 @@ cc_prebuilt_binary {
     name: "RemovePackagesVeux",
     overrides: [
         "AmbientSensePrebuilt",
- 	    "Aperture",
  	    "arcore",
  	    "Chrome",
  	    "Chrome-Stub",
