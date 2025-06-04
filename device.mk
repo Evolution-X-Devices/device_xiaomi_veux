@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     XiaomiDolby \
     XiaomiParts
 
+# Device as Webcam
+PRODUCT_PACKAGES += \
+    DeviceAsWebcam
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
