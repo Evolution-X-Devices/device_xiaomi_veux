@@ -54,7 +54,8 @@ blob_fixups: blob_fixups_user_type = {
     
     'vendor/lib64/android.hardware.secure_element@1.0-impl.so': blob_fixup()
         .remove_needed('android.hidl.base@1.0.so'),
-    
+    ('vendor/lib64/camera/components/com.qti.node.dewarp.so', 'vendor/lib64/camera/components/com.vidhance.node.processing.so'): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/lib64/camera/components/com.qti.node.mialgocontrol.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
     
