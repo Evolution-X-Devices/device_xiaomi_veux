@@ -269,6 +269,12 @@ PRODUCT_PACKAGES += \
 # Lineage health
 $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay-service.sdm
+
+$(call soong_config_set,livedisplay_sdm,enable_dm,false)
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
