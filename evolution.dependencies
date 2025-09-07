@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Xiaomi-Development/device_xiaomi_camera",
+    "target_path": "device/xiaomi/camera",
+    "remote": "github-non-los",
+    "branch": "aosp-15"
+  },
+  {
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
@@ -12,9 +18,9 @@
     "target_path": "vendor/xiaomi/veux"
   },
   {
-    "repository": "takixamru/vendor_xiaomi_agc-camera.git",
-    "target_path": "vendor/xiaomi/AGC-Camera",
+    "repository": "xiaomi-development/vendor_xiaomi_camera",
+    "target_path": "vendor/xiaomi/camera",
     "remote": "gitlab",
-    "branch": "main"
+    "branch": "aosp-15"
   }
 ]
