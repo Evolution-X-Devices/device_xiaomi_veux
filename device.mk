@@ -574,6 +574,3 @@ $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackagesVeux
-
-# AGC CAMERA
-$(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)

@@ -3,7 +3,6 @@ ro.vendor.aware_available           u:object_r:vendor_aware_available_prop:s0
 
 # Camera
 persist.camera.hdr.checkerdump      u:object_r:vendor_camera_prop:s0
-persist.vendor.low.cutoff           u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.               u:object_r:vendor_camera_sensor_prop:s0
 vendor.camera.sensor.logsystem      u:object_r:vendor_camera_prop:s0
 vendor.panel.display                u:object_r:vendor_camera_prop:s0
