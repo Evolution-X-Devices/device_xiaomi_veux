@@ -47,6 +47,6 @@
     <bool name="config_show_regulatory_info">true</bool>
 
      <!-- Android version screen, build maintainer -->
-    <string name="build_maintainer_summary" translatable="false">PrathamK07 (Rex)</string>
-    <string name="build_maintainer_donate_url" translatable="false">https://paypal.me/PrathamKalra</string>
+    <string name="build_maintainer_summary" translatable="false">Onelots</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://www.paypal.com/paypalme/0nelots</string>
 </resources>
