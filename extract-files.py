@@ -38,6 +38,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'^(?!service)(.*)wfdservice$', r'\g<1>wfdservice64'),
     
     'system_ext/lib64/libwfdnative.so': blob_fixup()
+        .add_needed('libinput_shim.so')
         .remove_needed('android.hidl.base@1.0.so'),
     
     'vendor/etc/camera/camxoverridesettings.txt': blob_fixup()
