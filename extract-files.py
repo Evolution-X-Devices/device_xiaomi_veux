@@ -59,7 +59,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/lib64/camera/components/com.qti.node.mialgocontrol.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
-    
+
+    ('vendor/lib64/libdpps.so', 'vendor/lib64/libsnapdragoncolor-manager.so'): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+
     ('vendor/lib64/libwvhidl.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     
