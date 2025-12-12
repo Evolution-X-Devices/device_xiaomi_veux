@@ -1,6 +1,6 @@
 # All unpinned blobs below are extracted from OS1.0.12.0.TKCMIXM (VEUXGlobal)
 # dada: OS2.0.217.0.WOCMIXM (dada_global)
-# ruby: OS1.0.5.0.UMOMIXM (RUBYGlobal)
+# ruby: OS2.0.9.0.UMOMIXM (ruby_global)
 # sunstone: OS1.0.2.0.UMQMIXM (SUNSTONEGlobal)
 # veux_cn: V14.0.5.0.TKCCNXM (VEUX)
 # veux_jp: V14.0.4.0.TKCJPXM (VEUX)
@@ -1305,7 +1305,7 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.detect.so
 
 # Sensors - from ruby
-vendor/lib64/libnotifyaudiohal.so|8dbb23b6069f81a0420e0d0b59e397c90fbe58e5
+vendor/lib64/libnotifyaudiohal.so;FIX_SONAME|a02f3e44bb5e84760925722ae3e9c66957e94c9d|fe4ea475de5a45ee1c1ebb0f4c05c2a6827b53f8
 
 # Sensors configs
 vendor/etc/sensors/config/holi_default_sensors.json
