@@ -347,7 +347,8 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCOMMON \
     ApertureOverlay \
     ApertureQRScannerOverlay \
-    ApertureIconOverlay
+    ApertureIconOverlay \
+    NexusLauncherOverlayCOMMON
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayVEUX \
