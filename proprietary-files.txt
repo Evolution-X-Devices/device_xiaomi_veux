@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OS1.0.12.0.TKCMIXM (VEUXGlobal)
+# All unpinned blobs below are extracted from OS1.0.13.0.TKCEUXM (VEUXEEAGlobal)
 # dada: OS2.0.217.0.WOCMIXM (dada_global)
 # ruby: OS2.0.9.0.UMOMIXM (ruby_global)
 # sunstone: OS2.0.5.0.UMQMIXM (sunstone_global)
