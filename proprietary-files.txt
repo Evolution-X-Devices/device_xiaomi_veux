@@ -672,7 +672,7 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so|8716f793f12ac3d3a5444ddaa056d6150
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|759973ec41a5a9d0f0c4bc941a4e513704ecfc2c
 
 # EUICC - from veux_jp
-product/priv-app/EuiccGoogle/EuiccGoogle.apk|2d238bfe14473b8f578bf0d4ea61246f61d0f618
+product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogleVeux.apk|2d238bfe14473b8f578bf0d4ea61246f61d0f618
 
 # Felica - from veux_jp
 vendor/etc/felica/common.cfg|ca6ccc74d3e115f4f522d670f64ce7d389b18741
