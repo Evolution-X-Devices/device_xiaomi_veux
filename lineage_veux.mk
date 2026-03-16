@@ -36,9 +36,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="veux_eea-user 13 TKQ1.221114.001 V816.0.13.0.TKCEUXM release-keys" \
     BuildFingerprint=Redmi/veux_eea/veux:13/TKQ1.221114.001/V816.0.13.0.TKCEUXM:user/release-keys \
     DeviceProduct=$(PRODUCT_DEVICE)
-
-# TEMP
-TARGET_DEVICE := veux
-
-# Camera
-include device/xiaomi/camera/miuicamera.mk
