@@ -118,9 +118,13 @@ persist.vendor.btstack.enable.twsplussho=true
 
 # Camera
 camera.disable_zsl_mode=true
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+persist.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
+persist.vendor.camera.multicamera.sat.id=0,3
+# Force HAL1 for VoIP and Social Apps to prevent cameraserver crashes during lens swaps
+camera.hal1.packagelist=com.discord,com.whatsapp,com.whatsapp.w4b
+vendor.camera.hal1.packagelist=com.discord,com.whatsapp,com.whatsapp.w4b
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
