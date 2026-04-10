@@ -106,6 +106,9 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/lib64/camera/components/com.qti.node.mialgocontrol.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
+    'vendor/etc/libnfc-pn557.conf': blob_fixup()
+        .call(blob_fixup_merge_files, 'vendor/libnfc-nxp_RF.conf', 'NXP RF', need_tmp_dir=False)
+        .regex_replace('pn553', 'nq-nci'),
     ('vendor/lib64/libalLDC.so', 'vendor/lib64/libalhLDC.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
