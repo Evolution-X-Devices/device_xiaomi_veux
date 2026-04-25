@@ -27,6 +27,7 @@ ODM_MANIFEST_SN100_FILES := \
 
 # Kernel
 TARGET_KERNEL_CONFIG := veux_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/veux
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
